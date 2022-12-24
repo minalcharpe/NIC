@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: content-box;
+    letter-spacing: 1px;
+}
+header{
+    background-image: linear-gradient(to right,cyan,teal);
+    height:80px;
+    padding: 10px;   
+}
+header h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 10000;
+}
+nav{
+    display: block;
+    background-color:black;
+    padding: 20px;
+    overflow: hidden;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;  
+}
+main h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+img{
+    background-color: white;
+    padding: 100px;
+    margin: 0px 50px;
+}
+.Insurance{
+    text-align: center;
+}
+.copyright{
+    float: right;
+}
+.container{
+    background-image: linear-gradient(to right,cyan,teal);
+}
+p{
+    width: 33%;
+    display: block;
+}
+footer{
+    height: 60px;
+    display: block;
+    background-color: black;
+    overflow: hidden;
+}
+footer a{
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px ;
+    float: left;
+}

@@ -1,0 +1,112 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: linear-gradient(to right, cyan,teal);
+}
+.container h1{
+    padding: 20px;
+    margin: 0;
+}
+.container{
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    background: #fff;
+}
+.item-container{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log-in{
+    font-size: 25px;
+    color: var(--secondary-color);
+}
+.log-in::after{
+    content: "";
+    display: block;
+    width: 60%;
+    height: 5px;
+    background: var(--primary-gradient);
+}
+.form-input{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="password"]{
+    padding: var(--primary-padding);
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background: white;
+    color: var(--secondary-color);
+    outline: none;
+    border: 1px solid black;
+}
+@media only screen and (max-width: 300px) {
+    input[type="text"], input[type="password"] {
+        width: 200px;
+    }
+  }
+input[type="text"]:focus-visible, input[type="password"]:focus-visible{
+    border: 1px solid black ;
+    background: transparent;
+}
+.label{
+    color: var(--secondary-color);
+    margin-bottom: 3px;
+}
+.display-space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+
+.item-container button{
+    border-radius: 50%;
+    border: none;
+    padding: 5px;
+    background: transparent;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px #353636;
+}
+.button{
+    background: linear-gradient(to right, cyan,teal);
+    color: black;
+}
+.button:hover{
+    background: linear-gradient(to right,teal,cyan);
+}
+button[type="submit"]{
+    width: 100%;
+    padding: var(--primary-padding);
+    border-radius: var(--pilled-shape-radius);
+    border: none;
+    background: var(--primary-gradient);
+    color: var(--white-shade);
+    margin: 10px 0 10px 0;
+}
+.chekbox-label{
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--link-color);
+    font-size: 14px;
+}
+#login{
+    color: blue;
+    text-decoration: underline;
+}
